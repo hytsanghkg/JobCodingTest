@@ -24,10 +24,10 @@ def detect_and_order_chain_businesses(businesses, location):
       if i.name not in count:
         chain.append(Chain(i.name, 0))
       count.append(i.name)
-      for j in chain:
-        j.frequency = str(count.count(j.name))
-  return chain
-
+  for j in chain:
+    j.frequency = str(count.count(j.name))
+  return sorted(chain, key=lambda x: x.frequency,reverse=True)
+  
 def parse_stdin_and_get_input():
   with open('input.txt') as f:
     lines = [line.strip() for line in list(f)]

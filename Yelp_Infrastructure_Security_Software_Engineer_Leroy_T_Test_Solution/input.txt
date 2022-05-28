@@ -1,0 +1,9 @@
+Starbucks - Seattle - 101
+Peets Coffee - San Francisco - 102
+Whole Foods - Austin - 103
+Starbucks - San Francisco - 104
+Peets Coffee - Austin - 105
+Starbucks - Austin - 106
+Whole Foods - Austin - 103
+Whole Foods - Austin - 107
+Austin
